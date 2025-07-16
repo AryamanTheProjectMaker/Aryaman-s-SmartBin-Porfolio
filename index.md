@@ -28,7 +28,7 @@ For my final milestone, it has been the biggest step up. I went from an ultrason
 <!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/mD9-f0Ik4v0?si=Kgptd47PjzLoFSPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   Since my 1st milestone I have made my ultrasonic sensor turn a servo motor, rather than an LED. This is more complex, and a much closer step to my final project, smart bin. Some technical details of what I accomplished are that I was able to use an ultrasonic sensor to make a servo rotate. 1 thing that surprised me alot was that this is not taking too long to build the different circuits. Some previous challenges I faced that I now overcame were that I am making fewer syntax errors in my code. Now I only have 1 more mile stone left, before that I have to attach all the components to the trash can and modify the code accordingly.
   ## Servos
