@@ -14,7 +14,7 @@ For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor a
 # Final Milestone
 
 
-![Bin photo](bin.jpg)
+![Bin photo](Bin1.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
