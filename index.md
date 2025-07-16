@@ -47,7 +47,7 @@ For my final milestone, it has been the biggest step up. I went from an ultrason
   ## UltraSonic Sensor
   Ultrasonic sensors are componeents that use high-frequency sound waves to detect objects and measure distances, without needing physical contact. They emit sound waves and then listen for the echo to find out the distance to the object. This makes them useful for various applications, including obstacle detection, level sensing, and distance measurement. 
   
-  ![Ultrasonic_diagram](How-Ultrasonic-Sensor-Working-Principle-Explained-1024x525.jpg)
+  ![Ultrasonic_diagram](UltraDiagram.png)
 
   
   Figure 2. Diagram of how UltraSonic sensor works
