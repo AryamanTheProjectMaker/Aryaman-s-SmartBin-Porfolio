@@ -1,76 +1,183 @@
-# Project Name Here
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
+# Aryaman-BlueStamp-SmartBin
+For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor and servo motor to open the lid if your hand is near. Becuase of this, you do not need to touch the dirt lid of the trash can. 
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
-```HTML 
-<!--- This is an HTML comment in Markdown -->
-<!--- Anything between these symbols will not render on the published site -->
-```
+
+
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
-| FirstName LastInitialOnly | School Name | Electrical Engineering | Incoming Senior
+|Aryaman C | William Hopkins Middle School| Robotics | Rising 7th Grader
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
-![Headstone Image](logo.svg)
+
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+
+![Bin photo](bin.jpg)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+For my final milestone, it has been the biggest step up. I went from an ultrasonic sensor rotating a servo to having it all attached, and opening my lid of the bin. My base project is now complete. This milestone had many challenges. The biggest challenge was that part of my Arduino was fried, meaning I could not use batteries. So for now I am stuck with using an usb cable. Also my servo would stop working on and off. 1 time it would work, and the next it would not. From this I have learned a lot. First of all I learned not to attach ground to power, otherwise you circuit would fry. I also learned how to use a dremel and how to solder. In the future after Blue Stamp I hope to learn more about robotics, so that I can make more advanced projects.
+
 
 
 
 # Second Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<!--**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+-->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/y3VAmNlER5Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your second milestone, explain what you've worked on since your previous milestone. You can highlight:
-- Technical details of what you've accomplished and how they contribute to the final goal
-- What has been surprising about the project so far
-- Previous challenges you faced that you overcame
-- What needs to be completed before your final milestone 
+  Since my 1st milestone I have made my ultrasonic sensor turn a servo motor, rather than an LED. This is more complex, and a much closer step to my final project, smart bin. Some technical details of what I accomplished are that I was able to use an ultrasonic sensor to make a servo rotate. 1 thing that surprised me alot was that this is not taking too long to build the different circuits. Some previous challenges I faced that I now overcame were that I am making fewer syntax errors in my code. Now I only have 1 more mile stone left, before that I have to attach all the components to the trash can and modify the code accordingly.
+  ## Servos
+   Servos are similar to motor, but a motor is a device that converts energy into mechanical motion, while a servo is a control system that uses a motor to achieve precise positioning or motion control. Servo motors work by using pulse-width modulation (PWM) to control their position, with the pulse width determining the wanted angle. The servo consists of a DC motor, gears, and a potentiometer for feedback, all put  in a control circuit. The control circuit compares the wanted position (encoded in the PWM signal) with the actual position (measured by the potentiometer) and adjusts the motor's rotation to match. In my code I also used a library called Servo.
+   ![Servo Diagram](Servo-Motor-Internal-Structure-Illustration.webp)
+
+   
+   Figure 1. Diagram of how servo motor works
+
 
 # First Milestone
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rX0uBCo3Gxs?si=nI9aSmXJP16OISlY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  For my first mile stone I wanted to test my code and hardware to see if I could make the ultrasonic sensor activate a component. So I made my ultrasonic sensor activate my LED. This milestone helped me make huge progress technical wise. This is because now I now understand how to activate something with an ultrasonic sensor. Some challenges I faced in the first milestone was when I had errors in my code such as forgotten semi-colons at the end or misspelled words. Now that I have finished my first milestone, I plan to use my knowledge from this to help me with my final project and make my ultrasonic sensor activate a servo which will open the lid of a trash can.
+  ## UltraSonic Sensor
+  Ultrasonic sensors are componeents that use high-frequency sound waves to detect objects and measure distances, without needing physical contact. They emit sound waves and then listen for the echo to find out the distance to the object. This makes them useful for various applications, including obstacle detection, level sensing, and distance measurement. 
+  
+  ![Ultrasonic_diagram](How-Ultrasonic-Sensor-Working-Principle-Explained-1024x525.jpg)
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+  
+  Figure 2. Diagram of how UltraSonic sensor works
+
+
+  ## LED
+  LEDs (Light Emitting Diodes) work by passing an electrical current through a semiconductor material, causing it to emit light.LEDs work by passing an electrical current through a semiconductor material, causing it to emit light. There are multiple colors for LED, including red, yellow, blue and green. Out of these the blue is the newest and hardest make. Blue LEDs were difficult to develop because finding the right material with a sufficiently large band gap to emit blue light, and then fabricating it into a reliable and efficient LED, was hard. Specifically, the material gallium nitride (GaN) was needed, but creating high-quality GaN crystals and then doping them to create a p-n junction for efficient light emission was a big obsticle. 
+
+
+
+  
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![Schematics Of my project](SkematicsForBluestamp.png)
+Figure 4. Schematic of Ultrasonic sensor and servo motor
 
-# Code
-Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
+# Starter Project 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3h2w0eoCSsU?si=V4aoqzZO6Au-X5Hd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+## Desrcription: 
+My starter project is an rgb slider. With this you can use sliders to change the color of the LED. I also used soder to attached the components to the board.
+## Challenges: 
+During making my starter project I had a few challenges. One of my first challenges was that I sauders incorrecly. This often happened because I added to much sauder. Also Some peices were not fully on the board.
+## Next Steps: 
+Now that I finished my starter project, I will now start on my actual project. For me it is the smart bin. The smart bin uses ultrasonic sensors to open or close a trashcan, which can be very useful. 
+# All My Code
+
+## First Milestone code:
 ```c++
-void setup() {
-  // put your setup code here, to run once:
-  Serial.begin(9600);
-  Serial.println("Hello World!");
-}
+const int trigPin = 12; 
+const int echoPin = 11; 
+const int LED = 2;
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void setup() 
+{ 
+  pinMode(trigPin, OUTPUT);  
+  pinMode(echoPin, INPUT);      
+  pinMode(LED, OUTPUT);
+  digitalWrite(trigPin, LOW); // Ensure trigPin starts LOW
+  delay(100); // Short delay for sensor stabilization
+} 
 
+void loop() 
+{        
+  long duration;
+  float distance;
+
+  // Send a 10 microsecond pulse to trigger the sensor
+  digitalWrite(trigPin, HIGH);  
+  delayMicroseconds(10); 
+  digitalWrite(trigPin, LOW);
+
+  // Read the echo time in microseconds
+  duration = pulseIn(echoPin, HIGH);
+
+  // Calculate the distance in cm
+  distance = (duration / 2.0) / 29.1;
+
+  // If distance is less than or equal to 10 cm, tur
+
+ on LED
+  if (distance <= 10 && distance >= 0)  
+  {
+    digitalWrite(LED, HIGH);
+  }  
+  else  
+  {
+    digitalWrite(LED, LOW);
+  }
+
+  delay(100); // Small delay between readings
 }
 ```
+
+## Second Milestone Code
+```
+#include <Servo.h>
+
+const int trigPin = 12; 
+const int echoPin = 11; 
+const int servoPin = 8; // Servo signal pin
+
+Servo myServo;
+
+void setup() 
+{ 
+  pinMode(trigPin, OUTPUT);  
+  pinMode(echoPin, INPUT);      
+  myServo.attach(servoPin); // Attach servo to pin 8
+  myServo.write(0); // Initial position
+  digitalWrite(trigPin, LOW); // Ensure trigPin starts LOW
+  delay(100); // Sensor stabilization
+} 
+
+void loop() 
+{        
+  long duration;
+  float distance;
+
+  // Send ultrasonic pulse
+  digitalWrite(trigPin, HIGH);  
+  delayMicroseconds(10); 
+  digitalWrite(trigPin, LOW);
+
+  // Read echo time and calculate distance
+  duration = pulseIn(echoPin, HIGH);
+  distance = (duration / 2.0) / 29.1;
+
+  
+
+  // If object is within 10 cm, open lid (rotate servo)
+  if (distance > 0 && distance <= 10)  
+  {
+    myServo.write(90); // Rotate to 90 degrees
+    delay(4000);
+  }
+
+  
+  else
+  {
+    myServo.write(0); // Rotate back to 0 degrees
+  }
+
+  delay(100); // Small delay between readings
+}
+```
+
+
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
@@ -78,7 +185,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino Uno | This component is used to upload code| $20.00 |https://store-usa.arduino.cc/products/uno-r4-minima|
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 | Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
