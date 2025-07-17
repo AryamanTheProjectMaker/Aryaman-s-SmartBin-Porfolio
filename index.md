@@ -21,9 +21,9 @@ For my final milestone, it has been the biggest step up. I went from an ultrason
 
 ## CAD
 For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The software I used was Onshape, which had many useful features. The reason I used CAD was becuase I wanted to 3D print a part to be a false floor, to help have an area at the bottom of my trash can so that my circuits stay away from any trash. Using cad, I made a shape tat would fit my bin. I had to get the floor printed 3 times, becuase the part would not fit. The 3d printer would not print the exact measurments, becuase there is a certain tolerence,meaning I needed to submit multiple new models with updated measurments.
-![CAD](CAD.png)
 
 
+<img src="CAD.png" width="400"/>
 
 
 
