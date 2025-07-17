@@ -33,6 +33,8 @@ For my final milestone, it has been the biggest step up. I went from an ultrason
   Since my 1st milestone I have made my ultrasonic sensor turn a servo motor, rather than an LED. This is more complex, and a much closer step to my final project, smart bin. Some technical details of what I accomplished are that I was able to use an ultrasonic sensor to make a servo rotate. 1 thing that surprised me alot was that this is not taking too long to build the different circuits. Some previous challenges I faced that I now overcame were that I am making fewer syntax errors in my code. Now I only have 1 more mile stone left, before that I have to attach all the components to the trash can and modify the code accordingly.
   ## Servos
    Servos are similar to motor, but a motor is a device that converts energy into mechanical motion, while a servo is a control system that uses a motor to achieve precise positioning or motion control. Servo motors work by using pulse-width modulation (PWM) to control their position, with the pulse width determining the wanted angle. The servo consists of a DC motor, gears, and a potentiometer for feedback, all put  in a control circuit. The control circuit compares the wanted position (encoded in the PWM signal) with the actual position (measured by the potentiometer) and adjusts the motor's rotation to match. In my code I also used a library called Servo.
+
+   
    ![Servo Diagram](ServoDiagram.webp)
 
    
