@@ -24,6 +24,9 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 
 
 <img src="CAD.png" width="400"/>
+   
+   Figure 1. Picture of my CAD Model
+
 
 
 
