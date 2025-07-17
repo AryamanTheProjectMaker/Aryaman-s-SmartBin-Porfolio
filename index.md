@@ -44,6 +44,7 @@ For my final milestone, it has been the biggest step up. I went from an ultrason
 
 
   For my first mile stone I wanted to test my code and hardware to see if I could make the ultrasonic sensor activate a component. So I made my ultrasonic sensor activate my LED. This milestone helped me make huge progress technical wise. This is because now I now understand how to activate something with an ultrasonic sensor. Some challenges I faced in the first milestone was when I had errors in my code such as forgotten semi-colons at the end or misspelled words. Now that I have finished my first milestone, I plan to use my knowledge from this to help me with my final project and make my ultrasonic sensor activate a servo which will open the lid of a trash can.
+  
   ## UltraSonic Sensor
   Ultrasonic sensors are componeents that use high-frequency sound waves to detect objects and measure distances, without needing physical contact. They emit sound waves and then listen for the echo to find out the distance to the object. This makes them useful for various applications, including obstacle detection, level sensing, and distance measurement. 
   
