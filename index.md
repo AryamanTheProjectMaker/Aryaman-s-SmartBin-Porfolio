@@ -59,9 +59,7 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
   Ultrasonic sensors are componeents that use high-frequency sound waves to detect objects and measure distances, without needing physical contact. They emit sound waves and then listen for the echo to find out the distance to the object. This makes them useful for various applications, including obstacle detection, level sensing, and distance measurement. 
   
 <img src="UltraDiagram.png" width="400"/>
-  ![Ultrasonic_diagram](UltraDiagram.png)
-
-  
+    
   Figure 3. Diagram of how UltraSonic sensor works
 
 
@@ -73,7 +71,7 @@ Figure 4. Schematic of Ultrasonic sensor and servo motor
   
 
 # Schematics 
-![Schematics Of my project](SkematicsForBluestamp.png)
+<img src="ser.png" width="400"/>
 Figure 5. Schematic of Ultrasonic sensor and servo motor
 
 
