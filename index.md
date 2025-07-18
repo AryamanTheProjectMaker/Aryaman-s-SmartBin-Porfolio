@@ -8,12 +8,12 @@ For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor a
 |:--:|:--:|:--:|:--:|
 |Aryaman C | William Hopkins Middle School| Robotics | Rising 7th Grader
 
-
+<img src="Bin1.jpg" width="400"/>
 
   
 # Final Milestone
 
-<img src="Bin1.jpg" width="400"/>
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZArYI0z0Kjk?si=JeUcnhz7dF_TYIQR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
