@@ -51,7 +51,7 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 
   Since my 1st milestone I have made my ultrasonic sensor turn a servo motor, rather than an LED. This is more complex, and a much closer step to my final project, smart bin. Some technical details of what I accomplished are that I was able to use an ultrasonic sensor to make a servo rotate. 1 thing that surprised me alot was that this is not taking too long to build the different circuits. Some previous challenges I faced that I now overcame were that I am making fewer syntax errors in my code. Now I only have 1 more mile stone left, before that I have to attach all the components to the trash can and modify the code accordingly.
   
-  ## Servos
+## Servos
   
    Servos are similar to motor, but a motor is a device that converts energy into mechanical motion, while a servo is a control system that uses a motor to achieve precise positioning or motion control. Servo motors work by using pulse-width modulation (PWM) to control their position, with the pulse width determining the wanted angle. The servo consists of a DC motor, gears, and a potentiometer for feedback, all put  in a control circuit. The control circuit compares the wanted position (encoded in the PWM signal) with the actual position (measured by the potentiometer) and adjusts the motor's rotation to match. In my code I also used a library called Servo.
 
@@ -68,7 +68,7 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 
   For my first mile stone I wanted to test my code and hardware to see if I could make the ultrasonic sensor activate a component. So I made my ultrasonic sensor activate my LED. This milestone helped me make huge progress technical wise. This is because now I now understand how to activate something with an ultrasonic sensor. Some challenges I faced in the first milestone was when I had errors in my code such as forgotten semi-colons at the end or misspelled words. Now that I have finished my first milestone, I plan to use my knowledge from this to help me with my final project and make my ultrasonic sensor activate a servo which will open the lid of a trash can.
   
-  ## UltraSonic Sensor
+## UltraSonic Sensor
   Ultrasonic sensors are componeents that use high-frequency sound waves to detect objects and measure distances, without needing physical contact. They emit sound waves and then listen for the echo to find out the distance to the object. This makes them useful for various applications, including obstacle detection, level sensing, and distance measurement. 
   
 <img src="UltraDiagram.png" width="400"/>
