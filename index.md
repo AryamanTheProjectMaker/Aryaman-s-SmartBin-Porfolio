@@ -84,6 +84,10 @@ Figure 4. Schematic of Ultrasonic sensor and servo motor
   
 
 # Schematics 
+## Base project Schematics
+<img src="ser.png" width="400"/>
+Figure 5. Schematic of Ultrasonic sensor and servo motor
+## Modification Schematics
 <img src="ser.png" width="400"/>
 Figure 5. Schematic of Ultrasonic sensor and servo motor
 
