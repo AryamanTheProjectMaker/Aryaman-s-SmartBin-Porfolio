@@ -189,7 +189,7 @@ void loop()
 }
 ```
 # Final MileStone code
-'''c++
+```c++
 #include <Servo.h>
 
 const int trigPin = 12; 
@@ -243,7 +243,7 @@ void loop()
 
   delay(100); // Small delay between readings
 }
-'''
+```
 
 
 
