@@ -66,6 +66,8 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
   ## LED
   LEDs (Light Emitting Diodes) work by passing an electrical current through a semiconductor material, causing it to emit light.LEDs work by passing an electrical current through a semiconductor material, causing it to emit light. There are multiple colors for LED, including red, yellow, blue and green. Out of these the blue is the newest and hardest make. Blue LEDs were difficult to develop because finding the right material with a sufficiently large band gap to emit blue light, and then fabricating it into a reliable and efficient LED, was hard. Specifically, the material gallium nitride (GaN) was needed, but creating high-quality GaN crystals and then doping them to create a p-n junction for efficient light emission was a big obsticle. 
 
+  <img src="LED-Construction.png" width="400"/>
+
 Figure 4. Schematic of Ultrasonic sensor and servo motor
 
   
