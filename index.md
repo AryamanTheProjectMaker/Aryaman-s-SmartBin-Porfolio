@@ -266,7 +266,7 @@ void loop()
   delay(100); // Small delay between readings
 }
 ```
-# Modification code
+## Modification code
 ``` c++
 #include <Servo.h>
 bool open=false;
