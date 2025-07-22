@@ -8,7 +8,7 @@ For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor a
 |:--:|:--:|:--:|:--:|
 |Aryaman C | William Hopkins Middle School| Robotics | Rising 7th Grader
 
-<img src="Bin1.jpg" width="400"/>
+<img src="Bin2.jpg" width="400"/>
 
 # Modifications
 After I finished my base projects I decided I wanted to add on more upgrades.
