@@ -50,7 +50,9 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mD9-f0Ik4v0?si=Kgptd47PjzLoFSPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
   Since my 1st milestone I have made my ultrasonic sensor turn a servo motor, rather than an LED. This is more complex, and a much closer step to my final project, smart bin. Some technical details of what I accomplished are that I was able to use an ultrasonic sensor to make a servo rotate. 1 thing that surprised me alot was that this is not taking too long to build the different circuits. Some previous challenges I faced that I now overcame were that I am making fewer syntax errors in my code. Now I only have 1 more mile stone left, before that I have to attach all the components to the trash can and modify the code accordingly.
+  
   ## Servos
+  
    Servos are similar to motor, but a motor is a device that converts energy into mechanical motion, while a servo is a control system that uses a motor to achieve precise positioning or motion control. Servo motors work by using pulse-width modulation (PWM) to control their position, with the pulse width determining the wanted angle. The servo consists of a DC motor, gears, and a potentiometer for feedback, all put  in a control circuit. The control circuit compares the wanted position (encoded in the PWM signal) with the actual position (measured by the potentiometer) and adjusts the motor's rotation to match. In my code I also used a library called Servo.
 
    
@@ -75,6 +77,7 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 
 
   ## LED
+  
   LEDs (Light Emitting Diodes) work by passing an electrical current through a semiconductor material, causing it to emit light.LEDs work by passing an electrical current through a semiconductor material, causing it to emit light. There are multiple colors for LED, including red, yellow, blue and green. Out of these the blue is the newest and hardest make. Blue LEDs were difficult to develop because finding the right material with a sufficiently large band gap to emit blue light, and then fabricating it into a reliable and efficient LED, was hard. Specifically, the material gallium nitride (GaN) was needed, but creating high-quality GaN crystals and then doping them to create a p-n junction for efficient light emission was a big obsticle. 
 
   <img src="LED-Construction.png" width="400"/>
@@ -84,6 +87,7 @@ Figure 4. Schematic of Ultrasonic sensor and servo motor
   
 
 # Schematics 
+
 ## Base project Schematics
 <img src="ser.png" width="400"/>
 Figure 5. Schematic of Ultrasonic sensor and servo motor
