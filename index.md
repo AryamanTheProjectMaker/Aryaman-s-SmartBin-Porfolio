@@ -188,6 +188,62 @@ void loop()
   delay(100); // Small delay between readings
 }
 ```
+# Final MileStone code
+'''
+#include <Servo.h>
+
+const int trigPin = 12; 
+const int echoPin = 11; 
+const int servoPin = 6; // Servo signal pin
+
+long duration;
+float distance;
+
+Servo myServo;
+
+void setup() 
+{ 
+  pinMode(trigPin, OUTPUT);  
+  pinMode(echoPin, INPUT);      
+  myServo.attach(servoPin); // Attach servo to pin 8
+  myServo.write(0); // Initial position
+  digitalWrite(trigPin, LOW); // Ensure trigPin starts LOW
+  delay(100); // Sensor stabilization
+  Serial.begin(9600);
+} 
+
+void loop() 
+{        
+
+  // Send ultrasonic pulse
+  digitalWrite(trigPin, HIGH);  
+  delayMicroseconds(10); 
+  digitalWrite(trigPin, LOW);
+
+  // Read echo time and calculate distance
+  duration = pulseIn(echoPin, HIGH);
+ 
+  if(duration!=0){
+  distance = (duration / 2.0) / 29.1;
+  Serial.println(distance);  
+   }
+
+ 
+  // If object is within 10 cm, open lid (rotate servo)
+  if (distance > 0 && distance <= 15)  
+  {
+    Serial.println("Turning Servo");
+    myServo.write(90); // Rotate to 90 degrees
+    delay(4000);
+  }
+  else
+  {
+    myServo.write(0); // Rotate back to 0 degrees
+  }
+
+  delay(100); // Small delay between readings
+}
+'''
 
 
 
