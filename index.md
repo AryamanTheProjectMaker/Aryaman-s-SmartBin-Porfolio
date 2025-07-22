@@ -19,6 +19,10 @@ For My second I attached an LED to my panel. This LED will turn on whenever the 
 
 ## Modification 3:QR code to Instruction to how to use
 On my bin I put a QR code. This code leads to a pdf with instructions to how to use smart bin.
+
+
+
+
 <img src="Qr code.png" width="100"/>
 
 
