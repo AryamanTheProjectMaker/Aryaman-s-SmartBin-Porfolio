@@ -210,7 +210,7 @@ void loop()
   delay(100); // Small delay between readings
 }
 ```
-## Final MileStone code
+## Final Milestone code
 ```c++
 #include <Servo.h>
 
@@ -265,6 +265,112 @@ void loop()
 
   delay(100); // Small delay between readings
 }
+```
+# Modification code
+``` c++
+#include <Servo.h>
+bool open=false;
+unsigned long time=0;
+
+const int trigPin = 12; 
+const int echoPin = 11; 
+const int servoPin = 6; // Servo signal pin
+int blueLED=2;
+int a = 10;
+int redButton=8;
+int greenButton=9;
+int blueButton=10;
+
+
+long duration;
+float distance;
+
+Servo myServo;
+
+void setup() 
+{ 
+  pinMode(trigPin, OUTPUT);  
+  pinMode(echoPin, INPUT);  
+  pinMode(blueLED,OUTPUT);    
+  myServo.attach(servoPin); // Attach servo to pin 8
+  myServo.write(0); // Initial position
+  digitalWrite(trigPin, LOW); // Ensure trigPin starts LOW
+  delay(100); // Sensor stabilization
+ pinMode(redButton,INPUT_PULLUP);
+ pinMode(greenButton,INPUT_PULLUP);
+ pinMode(blueButton,INPUT_PULLUP);
+  Serial.begin(9600);
+} 
+
+void loop() 
+{  
+if(digitalRead(redButton)==LOW){
+ a=10;
+}
+
+
+if(digitalRead(greenButton)==LOW){
+ a=20;
+}
+
+if(digitalRead(blueButton)==LOW){
+  a=30;
+}
+
+
+   // Send ultrasonic pulse
+  digitalWrite(trigPin, HIGH);  
+  delayMicroseconds(10); 
+  digitalWrite(trigPin, LOW);
+
+  // Read echo time and calculate distance
+  duration = pulseIn(echoPin, HIGH);
+ 
+ // if(duration!=0){
+  distance = (duration / 2.0) / 29.1;
+  Serial.println(distance);
+  Serial.print("A=");
+  Serial.println(a) ; 
+  // }
+
+ 
+  // If object is within 10 cm, open lid (rotate servo)
+  //Serial.println(open);
+  
+  if (distance > 0 && distance <= a)  
+  {
+    
+      time=millis();
+      Serial.print("Time:");
+      Serial.println(time);
+       open=true;
+    
+ 
+    Serial.println("Turning Servo");
+    myServo.write(90); // Rotate to 90 degrees
+    digitalWrite(blueLED,HIGH);
+  
+   
+  }
+   if(((open==true)&&(millis()-time>4000))||(open==false)){
+      if(distance>a){
+        myServo.write(0); // Rotate back to 0 degrees
+    digitalWrite(blueLED,LOW);
+    open=false;
+        
+      }
+      
+    }
+ 
+ // Serial.println(digitalRead(redButton));
+  //Serial.println(digitalRead(blueButton));
+ // Serial.println(digitalRead(greenButton));
+
+  
+  
+  delay(100); // Small delay between readings
+}
+
 ```
 
 
