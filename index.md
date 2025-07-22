@@ -10,6 +10,17 @@ For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor a
 
 <img src="Bin1.jpg" width="400"/>
 
+# Modififications
+After I finished my base projects I decided I wanted to add on more upgrades
+## Modification 1: Range Selection
+For my first modification I used a row of 3 push buttons on a pcb board to be able to change the range of my sensor. The button labled 10cm would make the range 10cm. This is the same for the 20 cm and 30cm. I added this becuase some people may have thaught the default of 10cm would have to sensitive or too less sensitve. SO to make everyone happy, I had a panel of buttons where you could customize the range.
+## Modification 2: LED
+For My second I attached an LED to my panel. This LED will turn on whenever the bin is open, indiccating it is in range. 
+
+## Modification 3:QR code to Instruction to how to use
+On my bin I put a QR code. This code leads to a pdf with instructions to how to use smart bin.
+
+
   
 # Final Milestone
 
