@@ -189,7 +189,7 @@ void loop()
 }
 ```
 # Final MileStone code
-'''
+'''c++
 #include <Servo.h>
 
 const int trigPin = 12; 
