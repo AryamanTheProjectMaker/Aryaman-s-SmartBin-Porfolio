@@ -16,7 +16,7 @@ After I finished my base projects I decided I wanted to add on more upgrades to 
 For my first modification I used a row of 3 push buttons on a pcb board to be able to change the range of my sensor. The button labled 10cm would make the range 10cm. This is the same for the 20 cm and 30cm. I added this becuase some people may have thaught the default of 10cm would have to sensitive or too less sensitve. SO to make everyone happy, I had a panel of buttons where you could customize the range.
 
 ### Push Buttons
-Push buttons are  mechanical switches that control the flow of electricity in a circuit. When pressed, they complete or brea) an electrical connection, allowing current to flow and activate a device or circuit element.
+A pushbutton is a switch that controls the flow of electricity in a circuit. When pressed, it either completes the circuit (allowing current to flow) or breaks it (stopping the current), depending on its type. There are two main types: normally open (NO), which closes the circuit when pressed, and normally closed (NC), which opens the circuit when pressed.
 
 <img src="pushbutton_diagram.png" width="400"/>
 
