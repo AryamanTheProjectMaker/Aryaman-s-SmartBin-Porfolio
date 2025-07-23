@@ -19,6 +19,7 @@ For my first modification I used a row of 3 push buttons on a pcb board to be ab
 Push buttons are  mechanical switches that control the flow of electricity in a circuit. When pressed, they complete or brea) an electrical connection, allowing current to flow and activate a device or circuit element.
 
 <img src="pushbutton_diagram.png" width="400"/>
+
 #### Pullup
 When you put pullup in code it enables a pullup resistor in the push button. Normaly when the button is not pushed it lets current pass, turing something on. But using pullup it makes it the opposite, when something is pushed something is activated.
 ## Modification 2: LED
