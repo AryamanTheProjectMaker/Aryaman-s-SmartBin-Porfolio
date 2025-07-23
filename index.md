@@ -14,6 +14,7 @@ For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor a
 After I finished my base projects I decided I wanted to add on more upgrades to help make my project even better. Below I have mentioned what they are.
 ## Modification 1: Range Selection
 For my first modification I used a row of 3 push buttons on a pcb board to be able to change the range of my sensor. The button labled 10cm would make the range 10cm. This is the same for the 20 cm and 30cm. I added this becuase some people may have thaught the default of 10cm would have to sensitive or too less sensitve. SO to make everyone happy, I had a panel of buttons where you could customize the range.
+
 ### Push Buttons
 Push buttons are  mechanical switches that control the flow of electricity in a circuit. When pressed, they complete or brea) an electrical connection, allowing current to flow and activate a device or circuit element.
 
