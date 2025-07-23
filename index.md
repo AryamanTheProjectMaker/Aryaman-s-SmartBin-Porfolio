@@ -24,7 +24,9 @@ On my bin I put a QR code. This code leads to a pdf with instructions to how to 
 
 
 <img src="Qr code.png" width="100"/>
+
 ## Modification Ideas if I had mor time:
+
 There are only someany modifications I could do in these 3 weeks. So I had some ideas of other possible modifications if I had more time. ! of them were to have a mike which would open the bin if it heard a key work like "Open bin" or even close it. And the second on was to use an IR remote to open the bin, remotely.
 
 
