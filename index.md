@@ -16,6 +16,7 @@ After I finished my base projects I decided I wanted to add on more upgrades to 
 For my first modification I used a row of 3 push buttons on a pcb board to be able to change the range of my sensor. The button labled 10cm would make the range 10cm. This is the same for the 20 cm and 30cm. I added this becuase some people may have thaught the default of 10cm would have to sensitive or too less sensitve. SO to make everyone happy, I had a panel of buttons where you could customize the range.
 ### Push Buttons
 Push buttons are  mechanical switches that control the flow of electricity in a circuit. When pressed, they complete or brea) an electrical connection, allowing current to flow and activate a device or circuit element.
+<img src="pushbutton_diagram.png" width="400"/>
 #### Pullup
 When you put pullup in code it enables a pullup resistor in the push button. Normaly when the button is not pushed it lets current pass, turing something on. But using pullup it makes it the opposite, when something is pushed something is activated.
 ## Modification 2: LED
