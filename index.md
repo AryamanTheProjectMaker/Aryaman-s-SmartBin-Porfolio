@@ -36,6 +36,8 @@ On my bin I put a QR code. This code leads to a pdf with instructions to how to 
 ## Modification Ideas if I had more time:
 
 There are only someany modifications I could do in these 3 weeks. So I had some ideas of other possible modifications if I had more time. ! of them were to have a mike which would open the bin if it heard a key work like "Open bin" or even close it. And the second on was to use an IR remote to open the bin, remotely.
+## Challenges I Faced While Making my Modifications
+While making my modifications like the rest of my project I had some challenges. One of my challenges was that my buttons were not working after soldered them on to the pcb board. My hardware and code was correct. So I wonderend what was wrong. Later I found out the problem was becuase the ground wire from the pcb board to the Arduino was weakly soldered, thus it did not work. To solve this I desaudered the wire and then resoldered a new wire, much stronger. Another challenge I faced was that my LED was not turning on. I later found out this was becuase I accidentaly solder the wrong side allighend to the resistor and mixed the anode and cathode.
 
 
   
@@ -53,9 +55,11 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
 
 
 
-<img src="CAD.png" width="400"/>
+<img src="CAD_DRAWING.png" width="400"/>
    
-   Figure 1. Picture of my CAD Model
+   Figure 2. My CAD drawing
+
+   <img src="Bin2.jpg" width="400"/>
 
 
 
