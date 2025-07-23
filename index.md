@@ -21,7 +21,7 @@ Push buttons are  mechanical switches that control the flow of electricity in a 
 <img src="pushbutton_diagram.png" width="400"/>
 
 #### Pullup
-When you put pullup in code it enables a pullup resistor in the push button. Normaly when the button is not pushed it lets current pass, turing something on. But using pullup it makes it the opposite, when something is pushed something is activated.
+In a push-button circuit, a pull-up resistor ensures that the input pin of a microcontroller reads a HIGH (or logic 1) state when the button is not pressed. When the button is pressed, the pull-up resistor allows current to flow, causing the input pin to read a LOW (or logic 0) state. This prevents the input from floating, which can lead to unpredictable behavior and false readings. 
 ## Modification 2: LED
 For My second I attached an LED to my panel. This LED will turn on whenever the bin is open, indiccating it is in range. 
 
