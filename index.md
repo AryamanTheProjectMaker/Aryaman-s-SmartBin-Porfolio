@@ -26,6 +26,15 @@ Figure 1. A diagram of how a push button works
 In a push-button circuit, a pull-up resistor ensures that the input pin of a microcontroller reads a HIGH (or logic 1) state when the button is not pressed. When the button is pressed, the pull-up resistor allows current to flow, causing the input pin to read a LOW (or logic 0) state. This prevents the input from floating, which can lead to unpredictable behavior and false readings. 
 ## Modification 2: LED
 For My second I attached an LED to my panel. This LED will turn on whenever the bin is open, indiccating it is in range. 
+### LEDs
+  
+  LEDs (Light Emitting Diodes) work by passing an electrical current through a semiconductor material, causing it to emit light.LEDs work by passing an electrical current through a semiconductor material, causing it to emit light. There are multiple colors for LED, including red, yellow, blue and green. Out of these the blue is the newest and hardest make. Blue LEDs were difficult to develop because finding the right material with a sufficiently large band gap to emit blue light, and then fabricating it into a reliable and efficient LED, was hard. Specifically, the material gallium nitride (GaN) was needed, but creating high-quality GaN crystals and then doping them to create a p-n junction for efficient light emission was a big obsticle. 
+
+  <img src="LED-Construction.png" width="400"/>
+
+Figure 4. Schematic of Ultrasonic sensor and servo motor
+
+  
 
 ## Modification 3:QR code to Instruction to how to use
 On my bin I put a QR code. This code leads to a pdf with instructions to how to use smart bin.
@@ -101,15 +110,7 @@ For my 3rd milestone I also used CAD, an acronym for Computer Aided Design. The 
   Figure 3. Diagram of how UltraSonic sensor works
 
 
-## LED
-  
-  LEDs (Light Emitting Diodes) work by passing an electrical current through a semiconductor material, causing it to emit light.LEDs work by passing an electrical current through a semiconductor material, causing it to emit light. There are multiple colors for LED, including red, yellow, blue and green. Out of these the blue is the newest and hardest make. Blue LEDs were difficult to develop because finding the right material with a sufficiently large band gap to emit blue light, and then fabricating it into a reliable and efficient LED, was hard. Specifically, the material gallium nitride (GaN) was needed, but creating high-quality GaN crystals and then doping them to create a p-n junction for efficient light emission was a big obsticle. 
 
-  <img src="LED-Construction.png" width="400"/>
-
-Figure 4. Schematic of Ultrasonic sensor and servo motor
-
-  
 
 # Schematics 
 
