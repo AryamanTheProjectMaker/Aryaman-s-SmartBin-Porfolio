@@ -20,6 +20,8 @@ A pushbutton is a switch that controls the flow of electricity in a circuit. Whe
 
 <img src="pushbutton_diagram.png" width="400"/>
 
+Figure 1. A diagram of how a push button works
+
 #### Pullup
 In a push-button circuit, a pull-up resistor ensures that the input pin of a microcontroller reads a HIGH (or logic 1) state when the button is not pressed. When the button is pressed, the pull-up resistor allows current to flow, causing the input pin to read a LOW (or logic 0) state. This prevents the input from floating, which can lead to unpredictable behavior and false readings. 
 ## Modification 2: LED
@@ -32,6 +34,7 @@ On my bin I put a QR code. This code leads to a pdf with instructions to how to 
 
 
 <img src="Qr code.png" width="100"/>
+Figure 3. The QR 
 
 ## Modification Ideas if I had more time:
 
