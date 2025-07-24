@@ -1,4 +1,4 @@
-# Aryaman-BlueStamp-SmartBin
+# Aryaman-BlueStamp-SmartBin <img src="AryamanC_(1).jpg" width="401"/>
 For BlueStamp I chose to make the smart bin. The bin uses an ultrasonic sensor and servo motor to open the lid if your hand is near. Becuase of this, you do not need to touch the dirt lid of the trash can. 
 
 
