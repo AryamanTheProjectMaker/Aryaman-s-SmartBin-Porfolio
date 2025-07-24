@@ -1,4 +1,4 @@
-# <img src="3e65c482-6df8-4697-bbc6-614cd59eea7d.png" width="150"/> Aryaman-BlueStamp-SmartBin
+# <img src="3e65c482-6df8-4697-bbc6-614cd59eea7d.png" width="100"/> Aryaman-BlueStamp-SmartBin
 
 
 
